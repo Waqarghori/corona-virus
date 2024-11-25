@@ -1,0 +1,13 @@
+body {
+    background: rgb(234,239,181);
+    background: linear-gradient(32deg, rgba(234,239,181,1) 15%, rgba(191,243,220,1) 35%, rgba(158,234,241,1) 47%, rgba(146,176,247,1) 81%, rgba(207,165,248,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+header {
+    display:  flex;
+    justify-content: space-between;
+}
+.nav-list {
+    display: flex;
+}
