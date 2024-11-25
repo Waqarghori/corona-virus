@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    width: 1300x;
+    width: 1300px;
     display:  flex;
     justify-content: space-between;
     padding: 48px 128px 0px 128px;
