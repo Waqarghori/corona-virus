@@ -8,7 +8,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    width: 1300px;
+    box-sizing: border-box;
+    width: 100%;
     display:  flex;
     justify-content: space-between;
     padding: 48px 128px 0px 128px;
@@ -19,6 +20,7 @@ header {
     align-items: center;
 }
 .nav-list {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
 }
@@ -79,18 +81,19 @@ header {
     box-sizing: border-box;
     width: 50%;
     height: 100vh;
-    overflow: hidden;
     position: relative;
     overflow: hidden;
-
 }
 .hero-right img {
     width: 143%;
     height: 75%;
+    display: flex;
     position: absolute;
     bottom: 100px;
-    right: -325px;
-}
+    right: -325px; 
+    margin: 0px;
+    padding: 0px;
+} 
 .hero-left h1,h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
