@@ -11,7 +11,7 @@ header {
     width: 1300x;
     display:  flex;
     justify-content: space-between;
-    padding: 64px 128px 0px 128px;
+    padding: 48px 128px 0px 128px;
 }
 .logo {
     display: flex;
