@@ -64,7 +64,7 @@ header {
 .hero {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 .hero-left {
@@ -151,4 +151,25 @@ header {
 }
 .chek-test:active {
     transform: none;
+}
+
+@media only screen and (max-width: 1200px){
+    .nav-list ul {
+        gap: 24px;
+        font-size: 24px;
+    }
+    .nav-list span {
+        width: 200px;
+    }
+    header {
+        width: 100%;
+        padding: 48px 96px 0px 96px;
+    }
+    .hero-left {
+        margin-left: 96px;
+    }
+    .hero-right img {
+        right: -100px;
+        width: 100;
+    }
 }
