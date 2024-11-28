@@ -178,4 +178,7 @@ header {
         gap: 16px;
         justify-content: center;
     }
+    .hero-left h1,h2 {
+        font-size: 40px;
+    }
 }
